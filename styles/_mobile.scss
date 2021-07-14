@@ -1,0 +1,16 @@
+@media screen and (max-width: 1169px) {
+  body {
+    .container {
+      margin-top: 5rem;
+      min-width: 370px;
+    }
+    .card {
+      margin: 0 auto 1.5rem auto;
+    }
+
+    .header-p {
+      max-width: 350px;
+      text-align: center;
+    }
+  }
+}

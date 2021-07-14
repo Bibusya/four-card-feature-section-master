@@ -1,0 +1,14 @@
+@media screen and (min-width: 1170px) {
+  .cards {
+    margin: 0 auto;
+    max-width: 1240px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card1,
+  .card3 {
+    transform: translateY(50%);
+  }
+}

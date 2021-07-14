@@ -1,0 +1,134 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #fafafa;
+  padding: 15px;
+}
+
+.container {
+  margin: 5rem auto 0 auto;
+}
+
+.header-h1 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  font-weight: 200;
+  color: #4c4e61;
+  line-height: 2.5rem;
+}
+
+.header-h1 span {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.header-p {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+  color: #a3a5ae;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 350px;
+  margin: 15px;
+  padding: 2rem;
+  display: block;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 9px 15px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 15px 3px rgba(5, 73, 85, 0.151);
+}
+
+.card h2 {
+  font-weight: 600;
+  color: #4c4e61;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-weight: 400;
+  color: #a3a5ae;
+  margin-bottom: 2.5rem;
+  max-width: 20rem;
+}
+
+.card img {
+  float: right;
+  margin: 0 0.5rem 0.5rem 0;
+  height: auto;
+  width: 5rem;
+}
+
+.card1 {
+  border-top: 5px solid #45d3d3;
+}
+
+.card2 {
+  border-top: 5px solid #ea5353;
+}
+
+.card3 {
+  border-top: 5px solid #fcaf4a;
+}
+
+.card4 {
+  border-top: 5px solid #549ef2;
+}
+
+.attribution {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1169px) {
+  body .container {
+    margin-top: 5rem;
+    min-width: 370px;
+  }
+  body .card {
+    margin: 0 auto 1.5rem auto;
+  }
+  body .header-p {
+    max-width: 350px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .cards {
+    margin: 0 auto;
+    max-width: 1240px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card1,
+  .card3 {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
